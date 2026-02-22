@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    height: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 24px;
+    width: 100%;
+    max-width: 384px;
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    opacity: 100%;
+    box-shadow: 10px 10px 0px 0px black;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.category {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    width: 82px;
+    height: 29px;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: 800;
+
+}
+
+.publish-date {
+    color: hsl(0, 0%, 42%);
+    font-weight: lighter;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author-img {
+    width: 32px;
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: hsl(0, 0%, 7%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    margin: 20px;
+    font-weight: bold;
+}
